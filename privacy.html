@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Privacy policy for Grove (Grove: Learn English) on iPhone, iPad and Mac. Grove does not collect personal data.">
+<title>Grove Privacy Policy</title>
+<style>
+  :root {
+    --bg: #fbfaf6;
+    --surface: #ffffff;
+    --text: #1d211f;
+    --muted: #4c5550;
+    --accent: #2c6a4c;
+    --accent-soft: #e5efe8;
+    --border: #d9ddd6;
+    --code-bg: #eef1ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121614;
+      --surface: #1a201d;
+      --text: #e7ebe8;
+      --muted: #a9b3ad;
+      --accent: #8fd1ad;
+      --accent-soft: #1d2b24;
+      --border: #2e3833;
+      --code-bg: #222a26;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 0 16px; }
+  a { color: var(--accent); text-underline-offset: 0.15em; }
+  a:hover { text-decoration-thickness: 2px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  .skip { position: absolute; left: -999px; top: 0; background: var(--surface); padding: 8px 12px; }
+  .skip:focus { left: 16px; top: 8px; z-index: 10; }
+
+  header.site { border-bottom: 1px solid var(--border); background: var(--surface); }
+  header.site .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding-top: 14px; padding-bottom: 14px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 700; font-size: 1.15rem; }
+  .brand .mark { width: 14px; height: 14px; border-radius: 50% 50% 50% 0; background: var(--accent); transform: rotate(-45deg); flex: none; }
+  header.site nav ul { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; }
+  header.site nav a { text-decoration: none; font-weight: 600; }
+  header.site nav a[aria-current="page"] { color: var(--text); border-bottom: 2px solid var(--accent); }
+
+  main { padding: 28px 0 40px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.35rem; line-height: 1.3; margin: 40px 0 10px; padding-top: 18px; border-top: 1px solid var(--border); }
+  h3 { font-size: 1.08rem; line-height: 1.35; margin: 24px 0 6px; }
+  p, ul, ol { margin: 0 0 14px; }
+  ul, ol { padding-left: 1.3em; }
+  li { margin-bottom: 6px; }
+  .meta { color: var(--muted); margin: 0 0 20px; }
+  .lede { font-size: 1.12rem; }
+  .ui { font-weight: 600; }
+
+  .summary { background: var(--accent-soft); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px 4px; margin: 20px 0 8px; }
+  .summary h2 { margin-top: 0; padding-top: 0; border-top: 0; font-size: 1.15rem; }
+
+  .toc { border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px 4px; margin: 20px 0; background: var(--surface); }
+  .toc h2 { margin: 0 0 6px; padding: 0; border: 0; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .toc ol { columns: 2 15rem; column-gap: 28px; }
+  .toc li { break-inside: avoid; }
+
+  .note { border-left: 4px solid var(--accent); background: var(--surface); padding: 12px 16px; border-radius: 0 10px 10px 0; margin: 16px 0; }
+  .note p:last-child { margin-bottom: 0; }
+
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 18px; font-size: 0.98rem; background: var(--surface); }
+  caption { text-align: left; color: var(--muted); padding-bottom: 6px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border: 1px solid var(--border); }
+  thead th { background: var(--accent-soft); }
+  td.yes { font-weight: 600; }
+  @media (max-width: 600px) {
+    table, thead, tbody, tr, th, td, caption { display: block; }
+    table { background: transparent; }
+    caption { width: 100%; }
+    thead { position: absolute; left: -9999px; }
+    tr { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 12px; overflow: hidden; background: var(--surface); }
+    td { border: 0; border-top: 1px solid var(--border); padding: 8px 12px; }
+    td:first-child { border-top: 0; background: var(--accent-soft); font-weight: 700; }
+    td[data-label]:not(:first-child)::before { content: attr(data-label); display: block; font-size: 0.8rem; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  }
+
+  footer.site { border-top: 1px solid var(--border); color: var(--muted); font-size: 0.95rem; }
+  footer.site .wrap { padding-top: 18px; padding-bottom: 28px; }
+  footer.site p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+<a class="skip" href="#content">Skip to the policy</a>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Grove</a>
+    <nav aria-label="Site">
+      <ul>
+        <li><a href="index.html">Support</a></li>
+        <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="content" class="wrap">
+  <h1>Privacy policy</h1>
+  <p class="meta">Grove (on the App Store as “Grove: Learn English”), version 3.0, for iPhone, iPad and Mac, and its share extension.<br>Effective date: 24 October 2026.</p>
+
+  <p class="lede">This page says what Grove keeps, where it keeps it, when anything leaves your device, and how to delete it. It is written for learners, parents and teachers, and it describes what the app actually does.</p>
+
+  <section class="summary" aria-labelledby="short">
+    <h2 id="short">In short</h2>
+    <ul>
+      <li><strong>Grove does not collect personal data.</strong> Nothing you read, write, say or score is sent to the developer.</li>
+      <li>There is no account, no advertising, no analytics, no tracking and no third-party code (SDKs) in Grove.</li>
+      <li>Your work is kept on your own device, and you can delete it in Settings.</li>
+      <li>Grove goes online only when you share a web link to it, when you switch on iCloud sync, or, on a device that cannot recognise speech by itself, after someone has said yes to Apple’s speech service. Nothing is sent to that service before the yes.</li>
+      <li>Grove is the same for every learner and does not ask who is learning. The dictionary hides rude and offensive words until someone turns that off.</li>
+    </ul>
+  </section>
+
+  <nav class="toc" aria-labelledby="toc-title">
+    <h2 id="toc-title">On this page</h2>
+    <ol>
+      <li><a href="#who">Who makes Grove</a></li>
+      <li><a href="#not-collected">What Grove does not collect</a></li>
+      <li><a href="#kept">What stays on your device</a></li>
+      <li><a href="#speech">The microphone and speech recognition</a></li>
+      <li><a href="#icloud">iCloud sync (optional)</a></li>
+      <li><a href="#web">Web pages shared to Grove</a></li>
+      <li><a href="#books">Books and files you open</a></li>
+      <li><a href="#sharing">Sharing your work</a></li>
+      <li><a href="#delete">How to delete your data</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#law">How this fits the law</a></li>
+      <li><a href="#email">If you email us</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section aria-labelledby="who">
+    <h2 id="who">1. Who makes Grove</h2>
+    <p>Grove is made by Gaurav Taxak (“the developer”, “we”). You can write to <a href="mailto:gauravtaxak@gmail.com">gauravtaxak@gmail.com</a> about anything on this page.</p>
+  </section>
+
+  <section aria-labelledby="not-collected">
+    <h2 id="not-collected">2. What Grove does not collect</h2>
+    <p>Grove has no server of its own, and nothing in the app sends information to the developer. In particular, Grove does not:</p>
+    <ul>
+      <li>ask for a name, an email address, an age or a birth date, or have any account or sign-in;</li>
+      <li>send what you read, write, say, record or score to the developer or to anyone else;</li>
+      <li>show advertising, or contain analytics, tracking or crash-reporting code of its own;</li>
+      <li>use your location, contacts, photos, camera or advertising identifier;</li>
+      <li>include code from other companies: it is built only on Apple’s own frameworks.</li>
+    </ul>
+    <p>The app’s privacy manifests, which Apple reads, declare no tracking and no collected data, for the app and for its share extension.</p>
+    <div class="note">
+      <p><strong>About Apple.</strong> Apple runs the App Store, iCloud and the speech service mentioned below. If you have agreed in your device’s settings to share analytics with app developers, Apple may pass crash reports and general app statistics to the developer. That is Apple’s service, described in Apple’s privacy policy; Grove adds nothing to it.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="kept">
+    <h2 id="kept">3. What stays on your device</h2>
+    <p>To work, Grove keeps the following in its own folders on the device. None of it is sent to the developer.</p>
+    <table>
+      <caption>What Grove keeps, and whether it can travel through iCloud</caption>
+      <thead>
+        <tr><th scope="col">What</th><th scope="col">Details</th><th scope="col">Through iCloud?</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Course progress</td>
+          <td data-label="Details">Unit and stage checks, review cards, the placement result, timed-test results, and the answers given in each timed-test sitting (the last 60 sittings).</td>
+          <td data-label="Through iCloud?">Progress, cards and results, only if sync is on. The answers of each timed-test sitting stay on the device.</td>
+        </tr>
+        <tr>
+          <td>Writing and speaking</td>
+          <td data-label="Details">Drafts, plans, earlier versions (the last six checked), the answers a learner keeps, and recordings of kept spoken answers.</td>
+          <td data-label="Through iCloud?">Never.</td>
+        </tr>
+        <tr>
+          <td>Reading speeds</td>
+          <td data-label="Details">Words a minute on timed readings.</td>
+          <td data-label="Through iCloud?">Never.</td>
+        </tr>
+        <tr>
+          <td>Your reading</td>
+          <td data-label="Details">The list of books you have opened (title, author and where the file is; the last 40), where you stopped in each, and web pages shared to Grove.</td>
+          <td data-label="Through iCloud?">Only where you stopped in each book, if sync is on. Books and pages themselves never.</td>
+        </tr>
+        <tr>
+          <td>Words and notes</td>
+          <td data-label="Details">Words kept in Words I Met, with the sentence and book each came from; highlights and notes, with the passage they mark.</td>
+          <td data-label="Through iCloud?">Yes, if sync is on.</td>
+        </tr>
+        <tr>
+          <td>Look-up history</td>
+          <td data-label="Details">The words you look up, with the sentence and book you met each in (the last 40 times for each word), so the word card can show where you met it before. <span class="ui">Delete this learner’s work</span> deletes it.</td>
+          <td data-label="Through iCloud?">Never.</td>
+        </tr>
+        <tr>
+          <td>Settings</td>
+          <td data-label="Details">The way through the first steps, the accent and voice, text and light, timers, whether the dictionary hides rude and offensive words, whether sync is on, and the answer to the speech-service question.</td>
+          <td data-label="Through iCloud?">Never.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>Backups.</strong> Your device’s own backups (iCloud Backup, or a backup to a computer) include Grove’s folders, except recordings: Grove keeps recordings out of device backups.</p>
+    <p><strong>How long.</strong> Everything stays until you delete it (see <a href="#delete">How to delete your data</a>) or delete the app. The lists noted above keep only their most recent entries.</p>
+  </section>
+
+  <section aria-labelledby="speech">
+    <h2 id="speech">4. The microphone and speech recognition</h2>
+    <h3>When Grove asks</h3>
+    <p>Grove asks your device for the microphone and for speech recognition the first time a learner chooses to speak: to read a passage aloud, to say a word, or to answer a speaking task. Where Grove will only record, it asks for the microphone alone. You can say no, or turn either off later in your device’s privacy settings; every speaking task can then be done aloud without recording.</p>
+
+    <h3>What is recorded and kept</h3>
+    <ul>
+      <li><strong>Reading aloud and saying a word:</strong> Grove listens to show which words came through clearly. Nothing is saved to a file or kept.</li>
+      <li><strong>Speaking tasks:</strong> the answer is recorded to a temporary file so the learner can play it back. It is kept only if the learner keeps the answer. A take that is tried again or not kept is deleted at once, and any left over are deleted the next time Grove opens. Kept recordings stay on the device, outside device backups, until you delete them.</li>
+      <li>Speech recognition only shows what it heard. Nothing a learner says is scored by it.</li>
+    </ul>
+
+    <h3>On the device first</h3>
+    <p>Wherever the device can turn English speech into words by itself, Grove requires it to do so on the device. The voice does not leave the device.</p>
+
+    <h3>Apple’s speech service: only after a yes</h3>
+    <p>Some devices cannot recognise speech by themselves. On those, recognition would mean sending the sound to Apple’s speech service. Grove asks once, before a reading or speaking task, whether it may do this. The question says that where a child is learning, a grown-up should answer.</p>
+    <ul>
+      <li><strong>Nothing is sent until someone says yes,</strong> either to that question or with the switch <span class="ui">Send speech to Apple’s speech service when this device cannot listen by itself</span> in <span class="ui">Settings ▸ Speech and recordings</span>.</li>
+      <li>Until then, or after a no, Grove only records (for a speaking task) or the learner reads aloud without it.</li>
+      <li>The answer can be changed at any time with the same switch in Settings. Where a child uses Grove, a parent or teacher should give the answer, or check it there.</li>
+    </ul>
+    <p>What Apple does with speech it receives is covered by Apple’s own privacy policy, not by this one. The developer receives none of it.</p>
+  </section>
+
+  <section aria-labelledby="icloud">
+    <h2 id="icloud">5. iCloud sync (optional)</h2>
+    <ul>
+      <li><strong>Off until you turn it on:</strong> <span class="ui">Settings ▸ Across your devices ▸ Keep my devices in step</span>. It works only when the device is signed in to iCloud.</li>
+      <li><strong>Your own iCloud account:</strong> Grove uses Apple’s iCloud key-value storage to carry a small amount of data between your devices signed in to the same Apple account. Grove has no server, and nothing in Grove sends this data to the developer.</li>
+      <li><strong>What travels:</strong> where you stopped in each book (stored under the book’s title), the words you kept in Words I Met (with their sentences), your highlights and notes (with the passages they mark), and your progress in the course (review cards, checks, the placement result and timed-test results).</li>
+      <li><strong>What never travels:</strong> drafts and written answers, recordings, the answers of each timed-test sitting, reading speeds, look-up history, books and saved web pages, and settings.</li>
+      <li><strong>Turning it off</strong> stops Grove sending or taking in anything more. It does not empty what is already in iCloud. To take everything Grove has put in iCloud out of it, use <span class="ui">Settings ▸ Across your devices ▸ Remove Grove’s copy from iCloud…</span>; it also turns sync off on that device. Turn sync off on your other devices first, or they will put their own copy back. <span class="ui">Delete this learner’s work</span> clears the course progress kept in iCloud, whether sync is on or not. Highlights, notes and kept words that you remove while sync is on are removed from the iCloud copy too.</li>
+      <li>iCloud is Apple’s service; Apple’s privacy policy covers it.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="web">
+    <h2 id="web">6. Web pages shared to Grove</h2>
+    <ul>
+      <li><strong>From Safari:</strong> choosing <span class="ui">Share ▸ Grove</span> picks the article (its headline, site name, author line, text and web address) out of the page that is already open in Safari. The share extension leaves it in a folder on your device that only Grove and its extension share. The extension sends nothing over the internet. If too little of the article can be found on the page, the extension passes on just the link, and Grove fetches the page as described next.</li>
+      <li><strong>From an app that passes only a link</strong> (or in the case just described): Grove opens that one page once, out of sight, to pick the article out. This is the only time Grove itself fetches a web page, and only secure (https) addresses are fetched. As with any browser visit, the website receives the request (for example, your device’s internet address) and may run its own scripts while the page loads. Grove keeps no cookies or other website data from that visit.</li>
+      <li>The article is saved as a page in Grove’s own folder on the device, with the site it came from named on it. <span class="ui">Remove from this list</span> takes it off the <span class="ui">Recently opened</span> list in Read and deletes Grove’s saved copy of the page.</li>
+      <li>The website’s own privacy policy covers what the website does.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="books">
+    <h2 id="books">7. Books and files you open</h2>
+    <ul>
+      <li>Grove opens EPUB, PDF, Word (.docx), RTF, Markdown, HTML and plain-text files that you choose, and reads or converts them on the device. Nothing in them is sent anywhere.</li>
+      <li>A book you open from your own files is read where it is. Grove remembers its title, author and where it is, so it can open it again from the <span class="ui">Recently opened</span> list in Read.</li>
+      <li>EPUB, Word, text and web-page books are shown with every internet connection blocked, so a picture, font or script inside a book cannot reach the web.</li>
+      <li>A web or email link that you tap in a book or PDF opens in your browser or mail app, outside Grove. Grove itself does not fetch it, and the website’s or mail app’s own privacy policy covers what happens there.</li>
+      <li>In Settings, <span class="ui">Privacy policy on the web</span> opens this page in your browser.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="sharing">
+    <h2 id="sharing">8. Sharing your work</h2>
+    <p>Some screens have a Share button: a task’s answer, <span class="ui">Share my work and results</span>, and the notes for a book. Each one hands <em>text</em> to your device’s share menu, and you choose where it goes, for example to a teacher. Grove never sends your work by itself, and it has no way to send a recording file anywhere.</p>
+  </section>
+
+  <section aria-labelledby="delete">
+    <h2 id="delete">9. How to delete your data</h2>
+    <p>Open Settings with the gear button (on a Mac, <span class="ui">Grove ▸ Settings…</span>).</p>
+    <ul>
+      <li><strong><span class="ui">Settings ▸ Privacy ▸ Delete this learner’s work…</span></strong> deletes from this device: progress in the course and its checks, review cards, timed-test results and sittings, drafts and plans, kept answers, recordings, reading speeds and the look-up history. It also resets the learner’s own settings (the way through the first steps, and <span class="ui">Take it slower</span>) and clears the copy of the course progress in iCloud. The device’s settings stay, among them the voice, the text size and whether the dictionary hides rude and offensive words. It asks first, and it cannot be undone. On a learner’s other devices, do the same there.</li>
+      <li><strong><span class="ui">Settings ▸ Speech and recordings ▸ Delete all recordings…</span></strong> deletes only the recordings. The answers stay, without their sound.</li>
+      <li><strong>Books, words and notes</strong> are not removed by the steps above. Take a book off the <span class="ui">Recently opened</span> list in Read with <span class="ui">Remove from this list</span>, a word with <span class="ui">Remove from Words I Met</span>, and highlights and notes in <span class="ui">Notes &amp; Highlights</span>.</li>
+      <li><strong>Everything:</strong> delete the app. On iPhone and iPad this deletes everything Grove keeps on the device. On a Mac, moving the app to the Bin may leave its data in your user Library, so use the steps above first.</li>
+      <li><strong>Backups and iCloud:</strong> an older device backup may still hold Grove’s data (never recordings) until that backup is replaced. For what stays in iCloud, see <a href="#icloud">iCloud sync</a>.</li>
+    </ul>
+    <p>Because none of this data reaches the developer, we have no copy to delete on our side.</p>
+  </section>
+
+  <section aria-labelledby="children">
+    <h2 id="children">10. Children</h2>
+    <p>Grove is made for school pupils as well as adults. It is the same for every learner: it does not ask who is learning, or anyone’s age, and every stage, its practice questions and its timed tests are open to all. Choose with a child what to use, and sit with a young child.</p>
+    <ul>
+      <li><strong>No personal data is collected from children.</strong> Grove collects no personal data from anyone, so a child’s name, voice, writing, results and reading never reach the developer.</li>
+      <li><strong>Speech, with a grown-up’s answer.</strong> On a device that cannot recognise speech by itself, Grove asks once whether it may send speech to Apple’s speech service, and sends nothing until someone says yes. The question says that where a child is learning, a grown-up should answer. The answer can be changed in <span class="ui">Settings ▸ Speech and recordings</span>. On a device that recognises speech by itself, the voice does not leave the device.</li>
+      <li><strong>The dictionary’s filter.</strong> <span class="ui">Settings ▸ Look up ▸ Hide rude and offensive words</span> is on until someone turns it off. While it is on, the dictionary hides offensive words and slurs, and explicit sexual words and senses, in Look up, in search by meaning and on the word card, while words a school teaches for the body, health and keeping safe stay. It is a setting of the device, so <span class="ui">Delete this learner’s work</span> leaves it as it is. No word list is perfect, so a grown-up should still be near a young child who looks words up.</li>
+      <li><strong>Links.</strong> A web or email link in an imported book or PDF opens in the device’s browser or mail app, outside Grove (see <a href="#books">Books and files you open</a>).</li>
+      <li><strong>iCloud, if a grown-up turns it on.</strong> The place in each book, course progress, kept words, highlights and notes then travel through the device’s own iCloud account, which is Apple’s service. The developer still receives nothing.</li>
+      <li><strong>No contact with others.</strong> Grove has no chat, no messages, no profiles and no way for a child to reach other people through it.</li>
+      <li><strong>Shared devices.</strong> Grove has no pupil accounts, so on a class set of devices or a family device one learner’s drafts and answers can be seen by the next. Use <span class="ui">Delete this learner’s work</span> before a device is passed on.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="law">
+    <h2 id="law">11. How this fits the law</h2>
+    <p>This section explains, in plain words, how Grove’s design relates to the main laws on children’s data. It is not legal advice.</p>
+
+    <h3>India: Digital Personal Data Protection Act, 2023</h3>
+    <p>The Act sets duties for anyone who processes people’s digital personal data. For children (under 18) it adds more, including verifiable consent from a parent and a ban on tracking, behavioural monitoring and targeted advertising aimed at children. Grove does not collect or receive any child’s personal data, and there is no tracking, behavioural monitoring or advertising of any kind by the developer. The progress Grove records is kept on the device for the learner’s own use, under the control of the family or school that uses it.</p>
+
+    <h3>United States: Children’s Online Privacy Protection Act (COPPA)</h3>
+    <p>COPPA applies to apps and websites that collect personal information from children under 13. Grove does not collect personal information from children: nothing a child types, says or records is sent to the developer. Speech goes to Apple’s speech service only on a device that cannot recognise speech by itself, and only after a yes that, where a child is learning, a grown-up should give.</p>
+
+    <h3>United Kingdom and European Union: GDPR</h3>
+    <p>Because nothing from Grove reaches the developer, the developer holds no personal data about you or your child from the app, so there is nothing for us to give access to, correct or erase. The data Grove keeps is on your device, under your control: you can see it in the app and delete it as described above. Grove starts with the private choices: sync is off, nothing is sent to Apple’s speech service until someone says yes, and the dictionary hides rude and offensive words. If you email us, we hold that email (see below), and you can ask us to delete it.</p>
+  </section>
+
+  <section aria-labelledby="email">
+    <h2 id="email">12. If you email us</h2>
+    <p>If you write to <a href="mailto:gauravtaxak@gmail.com">gauravtaxak@gmail.com</a>, we receive your email address and whatever you write. We use it only to reply to you. We do not share it, and we do not add you to any list. A pupil should ask a parent or teacher to write for them.</p>
+  </section>
+
+  <section aria-labelledby="changes">
+    <h2 id="changes">13. Changes to this policy</h2>
+    <p>If a later version of Grove changes what it keeps or sends, we will update this page, with a new effective date, before that version is released. The notice inside the app (<span class="ui">Settings ▸ Privacy ▸ Privacy: what Grove keeps</span>) will change with it.</p>
+  </section>
+
+  <section aria-labelledby="contact">
+    <h2 id="contact">14. Contact</h2>
+    <p>Gaurav Taxak<br>Email: <a href="mailto:gauravtaxak@gmail.com">gauravtaxak@gmail.com</a></p>
+    <p>For help with the app, see the <a href="index.html">support page</a>.</p>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Grove is made by Gaurav Taxak. <a href="index.html">Support</a> · <a href="privacy.html">Privacy</a></p>
+    <p>This page uses no cookies, scripts, fonts or images from anywhere else.</p>
+  </div>
+</footer>
+</body>
+</html>
