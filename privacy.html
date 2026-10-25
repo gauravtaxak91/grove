@@ -126,7 +126,7 @@
       <li>There is no account, no advertising, no analytics, no tracking and no third-party code (SDKs) in Grove.</li>
       <li>Your work is kept on your own device, and you can delete it in Settings.</li>
       <li>On iPhone, iPad and Mac, Grove goes online only when you share a web link to it, when you switch on iCloud sync, or, on a device that cannot recognise speech by itself, after someone has said yes to Apple’s speech service. Nothing is sent to that service before the yes.</li>
-      <li>On Android and Windows, Grove goes online only when you press <span class="ui">Check for updates</span> (it then reads one small file on this website), or, on an Android device that cannot recognise speech by itself, after someone has said yes to the device’s online speech service. It never fetches web pages and has no sync. See <a href="#android-windows">Grove for Android and Windows</a>.</li>
+      <li>On Android and Windows, Grove goes online only when you press <span class="ui">Check for updates</span> (it then reads one small file on this website), when you share a web link to it on Android (it then opens that one page to pick the article out), or, on an Android device that cannot recognise speech by itself, after someone has said yes to the device’s online speech service. It has no sync. See <a href="#android-windows">Grove for Android and Windows</a>.</li>
       <li>Grove is the same for every learner and does not ask who is learning. The dictionary hides rude and offensive words until someone turns that off.</li>
     </ul>
   </section>
@@ -287,7 +287,7 @@
     <h3>What is different</h3>
     <ul>
       <li><strong>No iCloud, and no sync of any kind.</strong> Section 5 does not apply. Each device keeps its own copy, and nothing travels between devices.</li>
-      <li><strong>Web pages are never fetched.</strong> Text you share to Grove from a browser (select it, then Share ▸ Grove) is read exactly as it was handed over and saved as an article in Grove’s own folder. A link shared on its own is not opened: Grove says so, and suggests sharing the text or saving the page as a PDF.</li>
+      <li><strong>Web pages shared to Grove.</strong> Text you select in a browser and share to Grove is read exactly as it was handed over and saved as an article in Grove’s own folder; nothing is fetched. A browser on Android passes only the link when you share a page, so Grove does what section 6 describes for an app that passes only a link: it opens that one page once, out of sight, to pick the article out, and only secure (https) pages. As with any visit, the website receives the request (for example, your device’s internet address) and may run its own scripts while the page loads; Grove fetches no pictures for it and keeps no cookies or other website data from that visit. The article is saved in Grove’s own folder, with the site it came from named on it, and <span class="ui">Remove from this list</span> in Read deletes it.</li>
       <li><strong>Books and files</strong> (EPUB, PDF, Word, RTF, Markdown, HTML, plain text) are read and converted on the device, with no internet connection. On Android, a book you open or share is copied into Grove’s own folder first, because Android lets an app read a chosen file only for a short while; that copy is left out of device backups.</li>
       <li><strong>Sharing your work:</strong> where the Apple version has a Share button, this version copies the text, for you to paste where you choose.</li>
     </ul>
@@ -302,7 +302,7 @@
     </ul>
     <h3>Permissions on Android</h3>
     <ul>
-      <li><strong>Internet</strong>, used only for <span class="ui">Check for updates</span>. (The online speech service, where someone has allowed it, is the device’s own and reaches the internet by itself.)</li>
+      <li><strong>Internet</strong>, used only for <span class="ui">Check for updates</span> and to open the page of a link shared to Grove. (The online speech service, where someone has allowed it, is the device’s own and reaches the internet by itself.)</li>
       <li><strong>Microphone</strong>, asked for the first time a learner records a spoken answer or reads aloud to the device. You can say no, or turn it off later in the device’s settings; every speaking task can then be done aloud without recording.</li>
     </ul>
     <p>On Windows, whether apps may use the microphone is set in <span class="ui">Settings ▸ Privacy &amp; security ▸ Microphone</span>.</p>
