@@ -1,0 +1,12 @@
+{
+  "android": {
+    "version": "0.2.0",
+    "build": 16,
+    "url": "https://gauravtaxak91.github.io/grove/download.html#android"
+  },
+  "windows": {
+    "version": "0.2.0",
+    "build": 0,
+    "url": "https://gauravtaxak91.github.io/grove/download.html#windows"
+  }
+}
