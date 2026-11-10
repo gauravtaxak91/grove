@@ -1,17 +1,17 @@
 {
   "android": {
-    "version": "0.2.0",
-    "build": 35,
+    "version": "0.3.0",
+    "build": 36,
     "url": "https://gauravtaxak91.github.io/grove/download.html#android"
   },
   "windows": {
-    "version": "0.2.0",
-    "build": 35,
+    "version": "0.3.0",
+    "build": 36,
     "url": "https://gauravtaxak91.github.io/grove/download.html#windows"
   },
   "mac": {
-    "version": "0.2.0",
-    "build": 35,
+    "version": "0.3.0",
+    "build": 36,
     "url": "https://gauravtaxak91.github.io/grove/download.html#mac"
   }
 }
